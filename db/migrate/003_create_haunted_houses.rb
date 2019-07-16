@@ -4,10 +4,12 @@ class CreateHauntedHouses
   def change 
     create_table :haunted_houses do |t|
       t.string :name 
-      t.
-  
-  
-  
+      t.text :location
+      t.string :theme
+      t.integer :price 
+      t.boolean :family_friendly
+      t.text :opening_date
+      t.text :closing_date
   end
   
   
