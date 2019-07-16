@@ -10,6 +10,7 @@ class CreateHauntedHouses
       t.boolean :family_friendly
       t.text :opening_date
       t.text :closing_date
+      t.description :description
   end
   
   
